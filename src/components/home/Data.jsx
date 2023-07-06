@@ -23,9 +23,9 @@ const Data = () => {
         Web Developer
       </h3>
       <p className="home__description">
-        Dynamic and proactive web developer with a strong foundation in front-
-        end and back-end technologies and a passion for creating immersive user
-        experiences.
+      I am adaptable and open to learning new frameworks and technologies,
+       enabling me to quickly grasp and implement new concepts,
+       and adapt to evolving project requirements in the dynamic field of web development.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello
