@@ -1,21 +1,17 @@
 import React from 'react';
 import './App.css'
-import Header from './components/header/Header';
-import Home from './components/home/Home'
-import About from './components/about/About';
-import Skill from './components/skill/Skill';
-import Qualification from './components/Qualification/Qualification';
+import {BrowserRouter as Router,Route} from 'react-router-dom'
+import {Routes} from 'react-router-dom'
+import StartPage from './components/StartPage';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <main className='main'>
-        <Home/>
-        <About/>
-        <Skill/>
-        <Qualification/>
-      </main>
+      <Router>
+        <Routes>
+          <Route path='/' exact component={StartPage}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
